@@ -1,0 +1,102 @@
+@charset "UTF-8";
+body {
+    font-family: 'Dosis', sans-serif; /* Change the font */
+}
+
+.header {
+    display: flex; /* display the content like box */
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* horizontal alignment*/
+}
+
+.image, img {
+    margin: 2rem; /* Add  some OUTSIDE margin to have more space and makes it more beautiful*/
+    height: 70px; /* Set the height duh!*/
+}
+
+a {
+    color: black; /* A cool black color instead of the ugly purple */
+    font-weight: bold; /* Useless but I think it's cooler */
+    text-decoration: none; /* Remove the ugly underlining */
+}
+
+.menu {
+    display: flex; /* display the content like box */
+    background: #6f345d; /* set a background color */
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* horizontal alignment*/
+    padding: 1em; /* Add  some INSIDE margin to have more space and makes it more beautiful*/
+}
+
+.menu a {
+    color: #d8dddf; /* Change the color */
+    padding: 1em 4em; /* Add  some INSIDE margin to have more space and makes it more beautiful*/
+}
+
+.menu a:hover {
+    color: #fff; /* Change the color */
+    background: #482438; /* set a background color */
+}
+
+.menu .selected a {
+    background: #fff; /* set a background color */
+    color: #482438; /* Change the color */
+}
+
+.content {
+    width: 75%; /* Set the width */
+    margin: 0 auto; /* Add  some OUTSIDE margin to have more space and makes it more beautiful*/
+    /* When you put a margin to 0 auto with a width, it will automatically center the element #hackercss */
+}
+
+.text-center {
+    text-align: center; /* Align the text in center*/
+}
+
+.list {
+    margin: 0 auto; /* Add  some OUTSIDE margin to have more space and makes it more beautiful*/
+    /* When you put a margin to 0 auto with a width, it will automatically center the element #hackercss */
+    width: 50%; /* Set the width */
+}
+
+.m-10 {
+    margin: 10px; /* Add  some OUTSIDE margin to have more space and makes it more beautiful*/
+}
+
+.p-10 {
+    padding: 10px; /* Add  some INSIDE margin to have more space and makes it more beautiful*/
+}
+
+.item {
+    display: flex; /* Display my element like a row of a table*/
+    align-items: center; /* Vertical alignment */
+}
+
+/* :hover = The style applied when my cursor is on the element */
+.item:hover {
+    background: #fbd3e6; /* Change the background */
+    cursor: pointer; /* Change the cursor (the mouse) */
+}
+
+.selected {
+    background: white; /* Set a background color */
+}
+
+.jeux{
+flex-wrap: wrap;
+background-color:white;
+	}
+
+.jeux h1 {
+	color:green;
+	}
+
+.jeux img {
+    margin: 2rem; /* Add  some OUTSIDE margin to have more space and makes it more beautiful*/
+    height: 400px; /* Set the height duh!*/
+} 
+
+.prix {
+	color:red;
+}
+

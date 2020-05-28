@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	padding:0;
+	background-image:url(https://images7.alphacoders.com/570/570597.jpg);
+	-webkit-background-size:cover;
+	background-size:cover;
+
+}
+
+.carre {
+	background:#d1ccc8;
+	color:#526aa6;
+	display:table-inline;
+	position:absolute;
+	margin-left:45%;
+	MARGIN-RIGHT:50%;
+	margin-top:100px;
+	font-size:20px;
+	}
+
+input {
+	background-color:white;
+	padding:10px;
+	margin:2px;
+	heigth:20px;
+	font-family:math;
+	font-size:17px;
+	border-radius:10px;
+	color:#f48905;
+}
+
+label {
+	text-decoration:underline;
+}
+
+#enregistrer {
+	color: black;
+}
