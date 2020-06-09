@@ -5,7 +5,7 @@ USE projetpersonnelSW;
 
 CREATE TABLE UTILISATEUR (
 id_utilisateur INT NOT NULL AUTO_INCREMENT,
-email VARCHAR(255) NOT NULL,
+email VARCHAR(255) UNIQUE NOT NULL,
 nomUtilisateur VARCHAR(255) NOT NULL,
 prenomUtilisateur VARCHAR(255) NOT NULL,
 password VARCHAR(255) NOT NULL,
